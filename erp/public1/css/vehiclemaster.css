@@ -1,0 +1,96 @@
+body{
+   overflow: auto;
+}
+.vehiclemaster table.tdesign tr.odd { background-color:  whitesmoke; }
+.vehiclemaster table.tdesign tr.even { background-color: white;  }	
+.vehiclemaster table.tdesign th {
+   text-align: center;
+   background-color: #d9edf7;
+   color: #000;
+   padding: 2px;
+   border: 1px solid #ccc;
+}
+table.dataTable thead .sorting_asc:after{
+   display: none;
+}
+table.dataTable thead .sorting:after{
+   display: none;
+}
+table.dataTable thead .sorting_desc:after{
+   display: none;
+}
+table td a{
+   display: block;
+   min-width: 50px;
+   padding: 1px 10px;
+}
+.vehiclemaster table.tdesign td {
+   text-align: center;
+    padding: 1px;
+    border: 1px solid #ada6a6;
+    background: transparent;
+    height:15px;
+    white-space: nowrap; 
+} 
+
+.vehiclemaster table.tdesign tr:hover td, .vehiclemaster table.tdesign tr:focus td{
+   background: #dbdbdb !important;
+}
+.vehiclemaster table.tdesign td:hover, .vehiclemaster table.tdesign td:focus{
+   background: #ccc !important;
+   transform: scale(1.1);
+   font-size: 15px;
+}
+.vehiclemaster #searchTxt_vehiclemaster{
+   background-color: unset;
+   border: 2px #5bc0de solid;
+   height: 33px;
+   padding: 3px;
+}
+.vehiclemaster table.dataTable thead .sorting_asc {
+   background-color: #5bc0de !important;
+}
+#btnAdd_vehiclemaster{
+   color: #fff;
+}
+.dt-buttons button {
+   color: #fff;
+   background: #5bc0de;
+   width: 100px;
+   border: 0px;
+   transition: all .3s;
+    border: 1px #fff solid !important;
+}
+.dt-buttons button:hover {
+   background: #32b9e1 !important;
+   border: 1px #9d9898 solid !important;
+}
+input[type=text], .form-control{
+   border: 1px #5bc0de solid !important;
+}
+select.form-control, select2 , #OwnerType{
+   background: unset !important;
+   border: 1px #5bc0de solid !important;
+   height: 34px;
+}
+.select2-container--default .select2-selection--single{
+   border: 1px solid #5bc0de;
+   height: 34px;
+}
+.pager li>a#prev, .pager li>a#next{
+   border: 1px #5bc0de solid;
+   color: #393939;
+}
+.pager li>a#prev:hover, .pager li>a#next:hover, .pager li>a#prev:focus, .pager li>a#next:focus {
+   background-color: #5bc0de;
+   color:#fff;
+}
+.sbmt_btn{
+   background-color: unset;
+   border: 1px #5bc0de solid !important;
+   color: #393939;
+}
+.sbmt_btn:hover, #sbmt_btn:focus{
+   background-color: #5bc0de;
+   color:#fff;
+}

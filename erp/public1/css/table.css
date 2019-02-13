@@ -1,0 +1,137 @@
+.rotate90 {
+-webkit-transform: rotate(-90deg);
+-moz-transform: rotate(-90deg);
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+height:20px; 
+}
+.labelsRed {
+color: black;
+background-color: white;
+font-family: "Arial";
+font-size: 12px;
+font-weight:bold;
+text-align: center;
+white-space: nowrap;
+border:solid 1px grey;
+
+}
+.labelsGreen {
+color: black;
+background-color: white;
+font-family: "Arial";
+font-size: 12px;
+font-weight:bold;
+text-align: center;
+white-space: nowrap;
+border:solid 1px grey;
+}
+
+.labelsYellow {
+color: black;
+background-color: white;
+font-family: "Arial";
+font-size: 12px;
+font-weight:bold;
+text-align: center;
+white-space: nowrap;
+border:solid 1px grey;
+}
+
+#pnlLeft {
+overflow-x: scroll;
+   overflow-y: scroll;
+   float: left;
+   margin-right: 3px;
+   padding-left: 2px;
+   border: 1 px #F00;
+   /*border-right: solid 1px #BDBDBD;*/
+   width: 49%;
+   -webkit-overflow-scrolling: touch;
+   
+}
+.touch {
+-webkit-overflow-scrolling: touch;
+}
+#pnlRight {
+   overflow: auto;
+   position: relative;
+   float: right;
+   border: 1 px #000;
+   width: 50%;
+}
+/* =========== Table */
+table.tdesign, table.tdesign td {
+font-size: 10px;
+/*white-space: nowrap; */
+overflow-x: hidden;
+-webkit-overflow-scrolling: touch;
+}
+
+table.tdesign {
+width: 100%;
+border-collapse: collapse;
+margin: 0 0 0 0;
+-webkit-overflow-scrolling: touch;
+}
+
+table.tdesign td {
+padding: 1px;
+border: 1px solid #000;
+background: transparent;
+height:15px;
+white-space: nowrap; 
+}
+
+table.tdesign td td {
+   border: none;
+}
+
+table.tdesign th {
+font-size: 12px;
+background: whitesmoke;
+color: #000;
+padding: 1px;
+border: 1px solid #000;
+}
+
+table.tdesign th a {
+   color: #fff;
+}
+
+
+
+
+/* table.tdesign th:first-child {
+top:auto;
+position:fixed;
+}*/
+
+table.tdesign .footer {
+background: lightgrey;
+}
+#divMapLatLngt {
+   bottom: 0px;
+   position: absolute;
+   margin-left: 80px;
+   padding: 2px;
+   z-index: 99;
+   background-color: rgba(255,255,255, 0.8);
+}
+
+
+td.highlight {
+background-color: whitesmoke !important;
+}
+
+table.tdesign tbody tr td{
+height:10px;
+padding:1px;
+}
+
+table.tdesign tr.odd { background-color:  whitesmoke; height:10px;}
+table.tdesign tr.even { background-color: white;  height:10px;}	
+.rounded {
+border-radius: 10px;
+}
+.span1 {border:1px solid #ccc; background-color:black; padding:2px; color:#FFF;}
+.span2 {border:1px solid #bbb; background-color:#ccc; padding:2px; color:black;}

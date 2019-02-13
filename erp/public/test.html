@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script type="text/javascript">
+    function soap() {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.open('POST', 'https://vedantaconnect.com/VendorConnectWebService/WebService.asmx?wsdl', true);
+
+        // build SOAP request
+        var sr =
+            '<?xml version="1.0" encoding="utf-8"?>'+
+            '<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">'+
+              '<soap:Body>'+
+                '<VL_ASH_PullVehicleDetails xmlns="http://tempuri.org/">'+
+                  '<dtashinput><![CDATA['+
+                  '<table>'+
+                  '<row>'+
+                   '<vehicle_no>1111</vehicle_no>'+
+                   '<challan_no>100</challan_no>'+
+                  '</row>'+
+                   '</table>'+
+                   ']]>'+
+                  '</dtashinput>'+
+                  '<transportercode>ASH001</transportercode>'+
+                  '<authorizationcode>Org</authorizationcode>'+
+                '</VL_ASH_PullVehicleDetails>'+
+              '</soap:Body>'+
+           ' </soap:Envelope>';
+
+           xmlhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                 alert(this.responseText);
+                }
+             };
+        // Send the POST request
+        xmlhttp.setRequestHeader('Content-Type', 'text/xml');
+        alert(sr);
+        xmlhttp.send(sr);
+        // send request
+        // ...
+    }
+</script>
+<input type="button" value="Soap" onclick="soap();" />
+</body>
+</html>

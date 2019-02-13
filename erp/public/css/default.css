@@ -1,0 +1,290 @@
+.center
+{
+margin:auto;
+width:960px;
+}
+/** Structure */
+
+#header {
+	color: #fff;
+	border-bottom: 3px solid #000000;
+	margin-bottom:10px;
+}
+
+#login{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	color: #ffffff;
+	padding: 10px;
+	text-align:right;
+	vertical-align:text-top;
+	}
+
+#menu {
+	border-top: 3px solid #000000;
+	background: #FF8600;
+	height:25px;
+	padding:10px;
+	border-bottom: 3px solid #cccccc;
+	}
+	
+#item {
+	position: relative;
+	padding: 0 0 0 36px;
+	margin: 0 0 0 0;
+	float:left;
+	}
+	
+#logo {
+	height:106px;
+	background-image:url(../images/banner1.png)
+	}
+
+#sidemenu {
+	background: #000000;
+	float: left; 
+	width: 240px; 
+	padding: 0;
+	margin:0 0 0 0;
+}
+
+#sidemenucontainer{
+	width: 241px;
+	}
+#sidemenuHeader{
+	height:52px; 
+	background-image:url(../images/submenu1.png); 
+	vertical-align:middle; 
+	margin:auto;                                                                               
+	}
+#sidemenuHeaderTitle{
+	padding-left:10px; 
+	padding-top:15px;
+	}
+#sidemenuBody1{
+	background-image:url(../images/submenubg1.png); height:200px; padding-bottom:10px;
+	}
+#sidemenuBody2{
+	background-image:url(../images/submenubg1.png); height:120px; padding-bottom:10px;
+	}
+#sidemenuBody3{
+	background-image:url(../images/submenubg1.png); height:auto; padding-bottom:10px;
+	}	
+#sidemenulinkArrow{
+	width:230px; height:28px; float:right;background-image:url(../images/submenuarrow.png); background-repeat:no-repeat;
+	}
+#sidemenulink{
+	width:190px; float:right; padding-top:5px;
+	}	
+	
+
+#container {
+	background: #000000;
+	width:960px; 
+	margin:0 auto; 
+	padding:0;
+}
+#content {
+	background: #000000;
+	position: relative;
+	 float: right;   
+	width: 720px; 
+	padding: 0;
+	margin:0;
+}
+#banner {
+	float: left;
+	background: #000000;
+	background-image:url(../images/footer1.png);
+	border-top: 8px solid #000000;
+}
+
+#footer {
+	float: left;
+	background: #FF8600;
+	color: #ffffff;
+	padding: 10px;
+	border-top: 8px solid #000000;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background: black;
+}
+
+
+/*
+
+.glossymenu {
+	position: relative;
+	padding: 0 0 0 36px;
+	margin: 0 0 0 0;
+	background: url(images/menu-bg.gif) repeat-x; 
+	height: 45px;
+	list-style: none;
+}
+
+.glossymenu li{
+	float:left;
+}
+
+.glossymenu li a, .glossymenu li a:visited{
+	float: left;
+	display: block;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight:bold;
+	padding:0 0 0 30px; 
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	cursor: pointer;	
+}
+
+
+.glossymenu li a b{
+	float: left;
+	display: block;
+}
+
+.glossymenu li.current a, .glossymenu li a:hover{
+	color: #000000;
+	background: url(images/menu-left.gif) no-repeat;
+	background-position: left;
+}
+
+.glossymenu li.current a b, .glossymenu li a:hover b{
+	color: #FFFFFF;
+	background: url(images/menu-right.gif) no-repeat right top; 
+}
+*/
+
+.BlackBold {color: #000000; font: 12px Verdana; text-decoration:none; font-weight: bold;}
+.BlackBoldCentre {color: #000000; font: 12px Verdana; text-decoration:none; font-weight: bold; text-align:center;}
+
+.WhiteBoldCentre {color: #ffffff; font: 14px Verdana; text-decoration:none; font-weight: bold; text-align:center;}
+.WhiteLinkBoldCentreBig {color: #ffffff; font: 18px Verdana; text-decoration:none; font-weight: bold; text-align:center;}
+.WhiteLinkBoldCentreBig:link {color: #ffffff; font: 18px Verdana; text-decoration:none; font-weight: bold; text-align:center;}
+.WhiteLinkBoldCentreBig:hover {color: #000000; font: 18px Verdana; text-decoration:none; font-weight: bold; text-align:center;}
+
+.WhitePickTable {color: #FFFFFF; font: 10px Verdana; text-decoration:none; font-weight: normal; text-align:center;}
+.WhitePickTableTitle {color: #FFFFFF; font: 12px Verdana; text-decoration:none; font-weight: normal; }
+
+.WhiteLnkSideMenu {color: #FFFFFF; font: 16px Arial; text-decoration:none; font-weight: normal;}
+.WhiteLnkSideMenu:link {color: #FFFFFF; font: 16px Arial; text-decoration: underline; font-weight: normal;}
+.WhiteLnkSideMenu:hover {color: #FFFFFF; text-decoration: none; font-weight: normal;}
+
+.WhiteLnkHeader {color: #FFFFFF;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight:bold;}
+.WhiteLnkHeader:link {color: #FFFFFF;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight:bold;}
+.WhiteLnkHeader:hover {color: #000000;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight:bold;}
+	
+.WhiteLnkBanner {color: #FFFFFF;
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 18px;
+	font-weight:bold;}
+.WhiteLnkBanner:link {color: #FFFFFF;
+	text-decoration:blink;
+	font-family: Verdana;
+	font-size: 18px;
+	font-weight:bold;}
+.WhiteLnkBanner:hover {color: #000000;
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 18px;
+	font-weight:bold;}	
+
+.WhiteLnkFooter {color: #FFFFFF; font: 12px Verdana; text-decoration:none; font-weight: bold;}
+.WhiteLnkFooter:link {color: #FFFFFF; font: 12px Verdana; text-decoration: underline; font-weight: bold;}
+.WhiteLnkFooter:hover {color: #FFFFFF; text-decoration: none; font-weight: bold;}
+
+.WhiteLnkFooterSmall {color: #FFFFFF; font: 10px Verdana; text-decoration:none; font-weight: normal;}
+.WhiteLnkFooterSmall:link {color: #FFFFFF; font: 10px Verdana; text-decoration: underline; font-weight: normal;}
+.WhiteLnkFooterSmall:hover {color: #FFFFFF; text-decoration: none; font-weight: normal;}
+
+.WhiteLnkHeaderSmall {color: #FFFFFF; font: 10px Verdana; text-decoration:none; font-weight: normal;}
+.WhiteLnkHeaderSmall:link {color: #FFFFFF; font: 10px Verdana; text-decoration: none; font-weight: normal;}
+.WhiteLnkHeaderSmall:hover {color: #FFFFFF; text-decoration: none; font-weight: normal;}
+
+.NormalSmall {font: 12px Verdana; text-decoration:none; font-weight: normal;}
+.NormalSmall:link { font: 12px Verdana; text-decoration: underline; font-weight: normal;}
+.NormalSmall:hover {text-decoration: none; font-weight: normal;}
+
+.table th{ background:#ffb444; color:#FFF; text-align:left; padding:3px;}
+.table{ border:1px solid #F93; border-collapse:collapse;}
+.table tr td{ border:1px solid #F93; border-collapse:collapse;}
+
+form input[type=text],input[type=password], form select,form textarea {
+	width: auto;
+	margin: 5px 0 0 10px;
+	border: 1px solid gray;
+	padding: 4px;
+}
+
+form label { 
+	display: block;
+	float: left; 
+	width: 150px; 
+	padding: 0; 
+	margin: 9px 0 0;
+	text-align: right; 
+}
+
+.contactlabel{
+	display: block;
+	float: left; 
+	width: 250px; 
+	padding: 0; 
+	margin: 9px 0 0;
+	text-align: right; 
+	}
+form br {clear: left;}
+
+.buttonboxLeft{
+	 width: 45%;
+	 float: left;
+	 padding: 2px;
+	 position:relative;
+	 height:inherit;
+}
+.buttonboxRight{
+	 width: 45%;
+	 float: Right;
+	 padding: 2px;
+	 position:relative;
+	  height:inherit;
+}
+
+#error{
+	background-color:#FFE8E8; 
+	border:thick; 
+	border:#F00; 
+	border-style:solid; 
+	width:90%; 
+	margin:auto; 
+	padding:5px;
+	}
+	
+.Centered{
+	height:100%;
+	text-align:center; 
+	display: inline-block;
+	}	
